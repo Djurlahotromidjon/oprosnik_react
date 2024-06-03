@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myBtn {
+  border-radius: 10px;
+  width: 100px;
+  height: 20px;
+  margin-top: 100px;
+  margin-left: 10px;
+
+  &:disabled {
+    opacity: 0.3;
+  }
+}
+
+.btnContainer {
+  display: flex;
+}
+
+.indicator {
+  width: 50px;
+  height: 20px;
+  background-color: red;
+  margin-left: 10px;
+}
+
+.activeIndicator.indicator {
+  background-color: blue;
+}
+
+.questionBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+.select, .checkboxOneAnswer, .checkboxSeveralAnswer, .short, .detailed   {
+  margin-left: 10px;
+  height: 100px;
+}
+
+.shortAnswer {
+  width: 200px;
+}
+
+.detailedAnswer {
+  width: 200px;
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
